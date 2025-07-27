@@ -3879,6 +3879,8 @@ These are the load hooks you can use in your own code. To hook into the initiali
 | `ActiveJob::Base`                    | `active_job`                         |
 | `ActiveJob::TestCase`                | `active_job_test_case`               |
 | `ActiveModel::Model`                 | `active_model`                       |
+| `ActiveModel::Error`                 | `active_model_error`                 |
+| `ActiveModel::SecurePassword`        | `active_model_secure_password`       |
 | `ActiveModel::Translation`           | `active_model_translation`           |
 | `ActiveRecord::Base`                 | `active_record`                      |
 | `ActiveRecord::DatabaseConfigurations` | `active_record_database_configurations` |
